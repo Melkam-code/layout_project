@@ -1,6 +1,7 @@
 body {
     /* Normalizing CSS, to remove any margin of the whole body */
     margin: auto 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* NAV */
@@ -9,6 +10,12 @@ body {
     list-style: none;
     font-size: 1em;
     margin: 0;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 li {
