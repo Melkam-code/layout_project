@@ -1,3 +1,9 @@
+/* NAV */
+.main-nav {
+    display: flex;
+    list-style: none;
+    font-size: 1em;
+}
 
 .zone {
     padding:30px 50px;
