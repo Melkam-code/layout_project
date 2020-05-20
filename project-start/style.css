@@ -31,6 +31,24 @@ a {
     }
 }
 
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+
+/* GRID */
+.grid-wrapper {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
+
+.box > img {
+    width: 100%;
+} 
+
 .zone {
     /* padding:30px 50px;
     margin:40px 60px; */
